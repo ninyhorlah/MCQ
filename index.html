@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Choice Question App</title>
+
+    <!-- custom styling -->
+    <link rel="stylesheet" href="./mcq.css">
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            
+            <h1></h1>
+        </div>
+        <div class="question-container">
+            <div class="question-num"><span class="current-num">1</span> of <span class="total-num">10</span></div>
+            <h3 class="question"></h3>
+            <h6>Point: <span id="point">0</span></h6>
+        </div>
+        <div class="body">
+            <p class="answer" id="answer1" > </p>
+            <p class="answer" id="answer2"></p>
+            <p class="answer" id="answer3"></p>
+            <p class="answer" id="answer4"></p>
+        </div>
+    </div>
+    <!-- <script src="./mcq.js"></script> -->
+    <script type="module" src="./_mcq.js"></script>
+    <script type="module" src="./questions.js"></script>
+</body>
+</html>
